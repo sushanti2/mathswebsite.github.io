@@ -1,6 +1,6 @@
 #container{
     width: 1250px;
-    border: 1px solid grey;
+/*    border: 1px solid grey;*/
     margin: 0 auto;
 }
 #header{
@@ -54,6 +54,7 @@ h1 a{
 #menu{
     height: 70px;
     background: linear-gradient(#F8F594,#D5D533);
+    padding: 7px 0px;
     
 }
 ul{
@@ -62,14 +63,102 @@ ul{
 #menu ul li{
     float: left;
     padding: 0 30px;
-/*    height: 20px;*/
+    height: 30px;
+    border-right: 1px solid #5d12e7; 
     
+}
+#menu ul li:last-child{
+    border-right: none;
 }
 #menu ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
     color: #5d12e7;
+    line-height: 30px; 
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #B314DB;
+    
+}
+#intro{
+    background: linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px;
+    margin: 16px 0;
+}
+#intro h3{
+    font-size: 40px;
+    color: #316901;
+    font-weight: normal;
+}
+#intro p{
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify
+}
+.sidebar{
+    height: 400px;
+    width: 550px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3{
+    color: #B314DB;
+    font-size: 30px;   
+}
+#leftsidebar ul li{
+    padding-bottom: 7px;
+    list-style-image: url(image/arrow1.png);
+    padding-left: 10px;
+}
+#leftsidebar ul{
+    padding-top: 5px;
+    
+}
+#rightsidebar ul li{
+    padding-bottom: 12px;
+    list-style-image: url(image/right.png);
+    padding-left: 10px;
+    
+}
+#rightsidebar ul{
+    padding-top: 10px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7; 
+    transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
     
     
 }
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    height: 60px;
+    margin-top: 15px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
