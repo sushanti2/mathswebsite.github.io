@@ -1,0 +1,75 @@
+#container{
+    width: 1250px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #7431CC;
+    text-decoration: none;
+}
+#searchBox{
+    float: right;  
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 15px
+   
+}
+.text{
+    float: left; 
+    width: 200px;
+     padding: 5px;
+    font-size: 15px;
+    color: sandybrown;
+    margin: 10px;
+    margin-left: 20px;
+    border:2px solid grey;
+    border-radius: 5px;           
+}
+.submit{
+    float: right;
+    margin-right: 10px;
+    margin-top: 13px;
+    color: white;
+    background: black;
+    border: 2px solid white;
+    border-radius: 4px; 
+    font-weight: bold;   
+}
+.submit:hover{
+    background: linear-gradient(pink,blue);
+    cursor: pointer;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(#F8F594,#D5D533);
+    
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+/*    height: 20px;*/
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    
+    
+}
